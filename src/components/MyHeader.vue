@@ -13,7 +13,7 @@
           transition="scale-transition"
           width="40"
       />
-
+      <!--
       <v-img
           alt="Name"
           class="shrink mt-1 hidden-sm-and-down"
@@ -22,6 +22,7 @@
           src="../assets/text.png"
           width="100"
       />
+      -->
     </div>
     <v-btn
         flat to="/"
