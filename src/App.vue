@@ -2,7 +2,9 @@
   <v-app>
     <MyHeader></MyHeader>
     <v-main>
+      <transition>
       <router-view/>
+      </transition>
     </v-main>
   </v-app>
 </template>
@@ -20,3 +22,12 @@ export default {
   }),
 };
 </script>
+
+<style>
+.v-enter-active{
+  transition: opacity 1s;
+}
+.v-enter, .v-leave-to{
+  opacity: 0;
+}
+</style>
