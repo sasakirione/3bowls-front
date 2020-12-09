@@ -2,9 +2,9 @@
   <v-app>
     <MyHeader></MyHeader>
     <v-main>
-      <transition>
-      <router-view/>
-      </transition>
+        <transition>
+          <router-view/>
+        </transition>
     </v-main>
   </v-app>
 </template>
